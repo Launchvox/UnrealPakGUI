@@ -8,7 +8,7 @@ The intended usage of this tool is for unreal developers to create patches and a
 
 #### Engine Dir
 
-This is for finding the <i>UnrealPak.exe</i> executable. It's the path containing unreal's <i>Engine</i> folder, i.e. <i>D:/UnrealEngine/UE_4.26</i>. Alternatively you can copy your <i>UnrealPak.exe</i> to the folder where <i>UnrealPakGUI.exe</i> is and leave this field empty.
+This is for finding the <i>UnrealPak.exe</i> executable. It's the path containing unreal's <i>Engine</i> folder, i.e. <i>C:\Program Files\Epic Games\UE_5.1</i>. Alternatively you can copy your <i>UnrealPak.exe</i> to the folder where <i>UnrealPakGUI.exe</i> is and leave this field empty.
 
 #### Crypto File
 
@@ -16,7 +16,7 @@ This is for encrypting/decrypting your pak file. If encryption is not necessary,
 
 #### UProject File
 
-Self-explanatory. This is for getting the project name. Required for the <i>Content Files Only</i> option;
+This is for getting the project name. Required for the <i>Content Files Only</i> option;
 
 ### Options
 
@@ -26,11 +26,11 @@ If checked, only files under "Content" and its subfolders are packed, so the pak
 
 #### Compression
 
-Self-explanatory. Check this if you want to compress your pak file.
+Check this if you want to compress your pak file.
 
 #### Encryption
 
-Self-explanatory. Requires a valid <i>Crypto.json</i> file.
+Requires a valid <i>Crypto.json</i> file.
 
 ### Modes
 
